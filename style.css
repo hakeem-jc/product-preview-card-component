@@ -90,3 +90,19 @@ html, body {
 .product__cta-icon {
     margin-right: 10px;
 }
+
+.attribution {
+    display: fixed;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(158, 36%, 37%);
+}
+
+.attribution a:hover {
+    color: #1A4031;
+}
