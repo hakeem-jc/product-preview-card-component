@@ -106,3 +106,37 @@ html, body {
 .attribution a:hover {
     color: #1A4031;
 }
+
+@media only screen and (min-width: 1200px) {
+    .product {
+        width: 600px;
+        height: 450px;
+        flex-direction: row;
+    }
+
+    .product__image { 
+        height: 450px;
+        width: 50%;
+        background-image: url('./images/image-product-desktop.jpg');
+        border-radius: 8px 0px 0px 8px;
+    }
+
+    .product__title {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0px;
+    }
+
+    .product__text-container {
+        width: 50%;
+    }
+
+    .product__text-container {
+        border-radius: 0px 8px 8px 0px;
+    }
+
+    .product__cta { 
+        width: 234px;
+        height: 44px;
+    }
+}
