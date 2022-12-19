@@ -52,3 +52,21 @@ html, body {
     font-size: 16px;
     margin-top: 15px;
 }
+
+.product__price-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.product__current-price {
+    font-size: 40px;
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(158, 36%, 37%);
+    margin: 0px 20px 0px 0px;
+}
+
+.product__old-price {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
