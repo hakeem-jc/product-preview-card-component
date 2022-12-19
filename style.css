@@ -27,3 +27,15 @@ html, body {
     background-size: cover;
     border-radius: 8px 8px 0px 0px;
 }
+
+.product__text-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.product__name {
+    font-weight: 300;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 7px;
+}
