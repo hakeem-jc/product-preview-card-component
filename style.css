@@ -7,13 +7,18 @@ html, body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;    
     background-color: hsl(30, 38%, 92%);
+    
+}
+
+.product-container {
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .product {
     width: 372px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -93,7 +98,7 @@ html, body {
     display: fixed;
     text-align: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .attribution a {
